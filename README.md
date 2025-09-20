@@ -3,6 +3,7 @@
 A Model Context Protocol (MCP) server that provides FAQ search functionality using RAG (Retrieval-Augmented Generation) to Claude Desktop. This project enables Claude to search through your FAQ documents and provide relevant answers based on semantic similarity.
 
 Inspiration is coming from here: https://www.youtube.com/watch?v=rnljvmHorQw
+
 And the code is taken from here: https://www.youtube.com/watch?v=W2EDdZplLcU
 
 ## 🚀 Features
