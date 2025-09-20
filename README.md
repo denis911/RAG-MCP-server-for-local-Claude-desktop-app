@@ -8,7 +8,7 @@ FAQ data and the code is taken from here: https://www.youtube.com/watch?v=W2EDdZ
 
 ## 🚀 Features
 
-- **FAQ Search**: Search through thousands of FAQ entries with semantic relevance ranking
+- **FAQ Search**: Search through hundreds of FAQ entries with semantic relevance ranking
 - **Real-time Integration**: Works directly with Claude Desktop through MCP protocol  
 - **Easy Setup**: Simple configuration with minimal dependencies
 - **Windows Compatible**: Tested and optimized for Windows 10/11
@@ -75,10 +75,9 @@ If successful, press `Ctrl+C` to stop the server.
 1. **Find your Claude Desktop config directory:**
    - Press `Win + R`
    - Type `%APPDATA%\Claude` and press Enter
-   - If the `Claude` folder doesn't exist, create it
 
 2. **Create configuration file:**
-   - Create a file named `claude_desktop_config.json` in the Claude folder
+   - Find a file named `claude_desktop_config.json` in the Claude folder
    - Add the following content:
 
 ```json
@@ -196,11 +195,11 @@ Once connected, you can interact with your FAQ database through Claude:
 
 ## 🎉 Benefits
 
-- **Instant Access**: Search thousands of FAQ entries instantly
+- **Instant Access**: Search hundreds of FAQ entries instantly
 - **Contextual Answers**: Get relevant answers ranked by similarity
 - **Local Processing**: Your data stays on your machine
 - **Extensible**: Easy to add more documents or modify search logic
-- **Integration**: Works seamlessly within Claude Desktop interface
+- **Integration**: Works within Claude Desktop interface
 
 
 ## 📝 Technical Details
@@ -214,7 +213,7 @@ Once connected, you can interact with your FAQ database through Claude:
   - Semantic search across question, text, and section fields
   - Course filtering (currently set to 'data-engineering-zoomcamp')
   - Boost weighting (questions: 3.0x, sections: 0.5x)
-  - Returns top 5 most relevant results
+  - Returns top 5 most relevant results - hard-coded for now, could be any number required
 
 ## 🆘 Getting Help
 
