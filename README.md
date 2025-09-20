@@ -36,7 +36,7 @@ FAQ data and the code is taken from here: https://www.youtube.com/watch?v=W2EDdZ
 
 **Option B: Git Clone**
 ```bash
-git clone <this-repository-url>
+git clone https://github.com/denis911/RAG-MCP-server-for-local-Claude-desktop-app
 cd claude_desktop_FAQ_RAG_MCP
 ```
 
