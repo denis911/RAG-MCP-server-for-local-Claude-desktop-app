@@ -4,7 +4,7 @@ A Model Context Protocol (MCP) server that provides FAQ search functionality usi
 
 Inspiration is coming from here: https://www.youtube.com/watch?v=rnljvmHorQw
 
-And the code is taken from here: https://www.youtube.com/watch?v=W2EDdZplLcU
+FAQ data and the code is taken from here: https://www.youtube.com/watch?v=W2EDdZplLcU
 
 ## 🚀 Features
 
