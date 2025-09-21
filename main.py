@@ -29,7 +29,7 @@ def init_index():
             doc['course'] = course_name
             documents.append(doc)
 
-    print(documents[1])
+    # print(documents[1]) # uncomment to see documents format
 
     index = AppendableIndex(
         text_fields=["question", "text", "section"],
